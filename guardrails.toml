@@ -1,0 +1,30 @@
+[specs]
+
+[tests]
+
+[diffs]
+lines_per_file = 128
+files_per_commit = 8
+
+[quality]
+status = "enabled"
+
+[[quality.metrics]]
+id = "e3a52a41-55ce-4df6-bd10-bd2d7a01a3ad"
+name = "Pattern Adherence"
+gate = -0.5
+
+[[quality.metrics]]
+id = "d105b28e-bb03-403a-9dc2-5b255c70efba"
+name = "Overengineering Tendency"
+gate = -0.5
+
+[[quality.metrics]]
+id = "7853bbb2-87fb-4b55-a6ba-eba84c7ac5cc"
+name = "Scope Discipline"
+gate = -0.5
+
+[[quality.metrics]]
+id = "e320a342-3fda-45d2-ac23-ef91fc8398b9"
+name = "Comment Quality"
+gate = -0.5
